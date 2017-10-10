@@ -1,26 +1,25 @@
 var string= prompt ("Hola! Escribe una frase");
 
-function cipher(texto){  
+function cipher(str; ){  
     
-    var phrase="abcdefghijklmnopqrstuvwxyz"
+    var str="abcdefghijklmnopqrstuvwxyz";
     
-    var text=text.toUpperCase()  
-    
+    var str =str.toUpperCase()  
     
     for (var i>=65; i <=90; i = i++) {
-    if((string.charCodeAt(i>=26) && (string.charCodeAt(i<=90)); 
+        
+    if((str.charCodeAt(i>=65) && (str.charCodeAt(i<=90)); 
 {
-    result = string.charCodeAt(i)-65-code%26; if(result)
+  
+    result = str.charCodeAt(i)-90-code%65; 
+    
+    if(result)
   
   
     }  
-    return r  
-}
-
-    var string = "";
- 
 
    
 }
+    return cipher 
 
 
